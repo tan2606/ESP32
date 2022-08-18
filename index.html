@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+    <div class="wrapper">
+        <h2>ESP32-DHT11</h2>
+        <h2>Nguyễn Tuấn Anh - N18DCDT002</h2>
+        <p>Nhiệt đô và độ ẩm</p>
+        <div class="temp-hum">
+            <div class="temp">
+                <i class="fas fa-thermometer-half" style="color:#059e8a;"></i>
+                <span class="dht-labels"></span>
+                <span id="nhietdo"></span>
+                <sup class="units">&deg;C</sup>
+            </div>
+            <div class="hum">
+                <i class="fas fa-tint" style="color:#00add6;"></i>
+                <span class="dht-labels"></span>
+                <span id="doam"></span>
+                <sup class="units">%</sup>
+            </div>
+        </div>
+        <p>Điều khiển thiết bị trong nhà</p>
+        <div class="led-control">
+            <div class="led">
+                <p>Đèn Nhà</p>
+                <button id="btn1" class="btn off">Off</button>
+            </div>
+            <div class="led">
+                <p>Đèn Bếp</p>
+                <button id="btn3" class="btn off">Off</button>
+            </div>
+            <div class="led">
+                <p>Quạt</p>
+                <button id="btn2" class="btn off">Off</button>
+            </div>
+            <div class="led">
+                <p>Cửa</p>
+                <button id="btn4" class="btn off">Off</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+    <script src="assets/js/main.js"></script>   
+    <script src="assets/js/led.js"></script>
+    <script src="assets/js/sensor.js"></script>
+</body>
+</html>

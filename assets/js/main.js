@@ -1,6 +1,7 @@
 const firebaseConfig = {
   apiKey: "AIzaSyD0tMgjvnN8w58pyrqEQUp4hXoPt0QAQlM",
   authDomain: "esp32-e2781.firebaseapp.com",
+  databaseURL: "https://esp32-e2781-default-rtdb.firebaseio.com",
   projectId: "esp32-e2781",
   storageBucket: "esp32-e2781.appspot.com",
   messagingSenderId: "423245427189",

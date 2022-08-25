@@ -23,10 +23,11 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: black;
-    background-size: 100%;
+    /* background-color: black; */
+    background-size: 120%;
     color:#000;
-    background-image: url('/assets/inmagas/osman-rana-HOtPD7Z_74s-unsplash.jpg');
+    background-image: url("https://allimages.sgp1.digitaloceanspaces.com/photographercomvn/2021/01/Download-hinh-nen-may-tinh-Full-HD-do-phan-giai.jpg");
+    background-repeat: no-repeat;
 }
 .wrapper {
     width: 400px;
